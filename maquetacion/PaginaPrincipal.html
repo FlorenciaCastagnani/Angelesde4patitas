@@ -8,11 +8,14 @@
 
     <title>Ángeles De Cuatro Patitas</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Solway:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+
 
     <link rel="stylesheet" href="./estilos.css">
 </head>
 <body>
-
 
     <!--
     ==================================================
@@ -22,7 +25,25 @@
 
     <header>
 
-        
+        <nav>
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Sobre Nosotros</a></li>
+                <li><a href="">Donar</a></li>
+            </ul>
+        </nav>
+
+        <a href="">
+            <img src="img/logo1.png" alt="Logo">
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="">Reportar</a></li>
+                <li><a href="">Voluntariado</a></li>
+                <li><a href="" class="boton1">Adoptar</a></li>
+            </ul>
+        </nav>
 
     </header>
 
@@ -34,11 +55,105 @@
 
     <main>
 
-        <!--                           PORTADA                               -->
+        <!-- ====================================================
+                                     PORTADA
+            ========================================================-->
 
         <section class="portada">
 
-           
+            <div class="ContenedorCarruserl">
+
+                <div class="carrusel" id="carrusel">
+
+                    <!--                  PORTADA 1                     -->
+
+                    <div class="carrusel-item">
+
+                        <div class="contenedor1">
+
+                            <div class="PortadaIzq">
+
+                                <h1>Hay una patita esperando por vos!</h1>
+
+                                <p>A veces, el amor que estas buscando tiene cuatro patas y esta esperando conocerte.</p>
+
+                                <a href="" class="boton1">
+                                    Adoptar
+                                </a>
+
+                            </div>
+
+                            <div class="portadaDer">
+                                <img src="img/perrito1.png" alt="">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!--                  PORTADA 2                     -->
+
+
+                    <div class="carrusel-item">
+
+                        <div class="contenedor1">
+
+                            <div class="PortadaIzq">
+
+                                <h1>Unite a nosotros y hace la diferencia!</h1>
+
+                                <p>¡Sumate a nuestra misión de ayudar!</p>
+
+                                <a href="" class="boton1">
+                                    Quiero ser Voluntario
+                                </a>
+
+                            </div>
+
+                            <div class="portadaDer">
+                                <img src="img/perrito2.png" alt="">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!--                  PORTADA 3                     -->
+
+
+                    <div class="carrusel-item">
+
+                        <div class="contenedor1">
+
+                            <div class="PortadaIzq">
+
+                                <h1>Ayudanos a seguir rescatando!</h1>
+
+                                <p>Con tu donación podemos brindar alimento, cuidado y refugio a quienes más  lo necesitan.</p>
+
+                                <a href="" class="boton1">
+                                    Donar
+                                </a>
+
+                            </div>
+
+                            <div class="portadaDer">
+                                <img src="img/perrito3.png" alt="">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <button class="carrusel-btn prev" onclick="moverCarrusel(-1)">❮</button>
+                <button class="carrusel-btn next" onclick="moverCarrusel(1)">❯</button>
+
+            </div>
+  
 
         </section>
 
@@ -48,7 +163,30 @@
 
         <section class="seccion1">
 
-            
+            <h1>Sobre Nosotros</h1>
+
+            <div class="contenedor1">
+
+                <div>
+
+                    <img src="img/perritolindo1.png" alt="">
+
+                </div>
+
+                <div class="infoSeccion1">
+
+                    <p>Somos una asociación sin fines de lucro ubicada en Magdalena, Buenos Aires, dedicada al rescate y la protección animal.</p>
+
+                    <p>Trabajamos para brindar refugio, cuidado y una segunda oportunidad a cada animal, promoviendo la adopción responsable mediante un protocolo que garantice su bienestar y les permita encontrar un hogar lleno de amor.</p>
+
+                    <a href="" class="boton1">
+                        Ver más...
+                    </a>
+
+                </div>
+
+
+            </div>   
 
         </section>
 
@@ -57,6 +195,111 @@
             ========================================================-->
 
         <section class="seccion2">
+
+            <h1>Conocé a nuestras patitas en adopción</h1>
+
+            <div class="contenedorCarrusel">
+
+                <div class="carrusel" id="carrusel">
+
+                    <!--                  Historia 1                     -->
+
+                    <div class="carrusel-item">
+
+                        <div class="contenedor1">
+
+                            <div class="infoSeccion2">
+
+                                <h3>Ella es Camila</h3>
+                                <p>Hace unos meses apareció sola en una cuadra, buscando ayuda y a punto de convertirse en mamá. Hoy queremos que conozcas su historia.</p>
+
+                                <a href="" class="boton2">
+                                    Conocé su historia...
+                                </a>
+
+                            </div>
+
+                            <div>
+                                <img src="img/Adopcion1.png" alt="">
+                            </div>
+
+                        </div>
+
+                        <!--                  Historia 2                     -->
+
+                    <div class="carrusel-item">
+
+                        <div class="contenedor1">
+
+                            <div class="infoSeccion2">
+
+                                <h3>Él es Mustafa</h3>
+                                <p>Conocimos a Mustafa un 18 de Enero del 2022, había sido abandonado camino al río, con uno de sus ojitos lastimado, asustado y sin saber en quién confiar.</p>
+
+                                <a href="" class="boton2">
+                                    Conocé su historia...
+                                </a>
+
+                            </div>
+
+                            <div>
+                                <img src="img/Adopcion2.png" alt="">
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <!--                  Historia 3                     -->
+
+                    <div class="carrusel-item">
+
+                        <div class="contenedor1">
+
+                            <div class="infoSeccion2">
+
+                                <h3>Él es Osito</h3>
+                                <p>Osito llegó al refugio al rededor del año 2021. Tenía aproximadamente 8 años y venía deambulando por las calles, sin un hogar al cuál regresar.</p>
+
+                                <a href="" class="boton2">
+                                    Conocé su historia...
+                                </a>
+
+                            </div>
+
+                            <div>
+                                <img src="img/Adopcion3.png" alt="">
+                            </div>
+
+                        </div>
+
+                </div>
+
+                <!--                  Historia 4                     -->
+
+                    <div class="carrusel-item">
+
+                        <div class="contenedor1">
+
+                            <div class="infoSeccion2">
+
+                                <h3>Él es Julián</h3>
+                                <p>Julián fue abandonado en un campo en Diciembre del 2022, su historia comenzó de una manera que ningún animal debería vivir: siendo dejado atrás, sin un hogar y sin una familia que lo cuidara.</p>
+
+                                <a href="" class="boton2">
+                                    Conocé su historia...
+                                </a>
+
+                            </div>
+
+                            <div>
+                                <img src="img/Adopcion4.png" alt="">
+                            </div>
+
+                        </div>
+
+            </div>
 
             
 
@@ -68,6 +311,52 @@
 
         <section class="seccion3">
 
+            <h1>Ayudanos a llegar a aquellos que lo necesitan</h1>
+
+            <p>
+                Si sabes de algún caso que requiera ayuda, un animal perdido <span class="resaltado1">CONTACTATE CON NOSOTROS</span>
+            </p>
+
+            <div class="contactos">
+
+                <div class="Wsp">
+
+                    <img src="img/Whatsapp.png" alt="">
+
+                    <p>Whatsapp</p>
+                    <p>+54 XXXXXXXX</p>
+
+                </div>
+
+                <div class="Fcb">
+
+                    <img src="img/facebook.png" alt="">
+
+                    <p>Facebook</p>
+                    <a href="https://www.facebook.com/angelesdecuatro.patitas.1">Ángeles de Cuatro Patitas</a>
+
+                </div>
+
+            </div>
+
+            <div class="Contenedor1">
+
+                <img src="img/gatitos.png" alt="">
+
+                <div class="infoSeccion3">
+
+                    <p>
+                        ¿Viste un caso de maltrato animal o encontraste un perrito que necesita ayuda? <span class="resaltado1">Conocé cómo actuar y qué pasos seguir para protegerlo</span>
+                    </p>
+
+                    <a href="" class="boton1">
+                        Denuncia el maltrato
+                    </a>
+
+                </div>
+
+            </div>
+            
             
 
         </section>
@@ -82,7 +371,66 @@
 
     <footer>
 
-        
+        <div class="infoAdopcionFooter">
+
+            <h3>Recibi info de adopciones</h3>
+
+            <form action="/enviar-correo" method="post">
+                <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Escribí tu email" autocomplete="email">
+                    <span class="campo-error" id="error-email"></span>
+            </form>
+
+
+        </div>
+
+        <div class="contactoFooter">
+
+        <h3>Contacto</h3>
+
+            <a href="https://www.instagram.com/angeles.de.4.patitas/">
+                <img src="img/Instagram2.png" alt="">
+            </a>
+
+            <a href="https://www.facebook.com/angelesdecuatro.patitas.1">
+                <img src="img/Facebook2.png" alt="">
+            </a>
+
+            <a href="Angelesde4patitas.mgd@gmail.com">
+                <img src="img/Mail.png" alt="">
+            </a>
+
+        </div>
+
+        <div class="headerdelFooter">
+
+            <a href="">
+                Sobre Nosotros
+            </a>
+
+            <a href="">
+                Donar
+            </a>
+
+            <a href="">
+                Contacto
+            </a>
+            
+            <a href="">
+                Reportar
+            </a>
+
+            <a href="">
+                Voluntariado
+            </a>
+
+            <a href="">
+                Adoptar
+            </a>
+
+        </div>
+
+        <img src="img/logo2.png" alt="">
 
     </footer>
 
